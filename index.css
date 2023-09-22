@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 100vh;
+}
+.sub{
+    width: 30%;
+    position: relative;
+    /* bottom: 70px; */
+}
+table,tr,td,th{
+    border: 1px solid wheat;
+    border-collapse: collapse;
+    width: 264px;
+    padding:10px 0px;
+    font-weight: bold;
+}
+.btn{
+    padding:2%;
+}
+#addNew{
+    position: relative;
+    right: 5px;
+}
+@media screen and (max-width:800px) {
+    .sub{
+    width: 100%;
+    position: relative;
+    bottom: 120px;
+    margin-left: 25px;
+}
+table{
+    border: 1px solid wheat;
+    border-collapse: collapse;
+    width: 84%;
+    padding:10px 0px;
+    font-weight: bold;
+}
+.btn{
+    padding:2%;
+    width: 40%;
+}
+
+}
